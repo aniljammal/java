@@ -2,7 +2,7 @@ import java.util.Scanner;
  class PrimeCompositeCounter {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter the numbers (enter a non-numeric character to stop):");
+        System.out.println("Enter the numbers:");
         int primeCount = 0, compositeCount = 0;
         while (scanner.hasNextInt()) {
             int number = scanner.nextInt();
